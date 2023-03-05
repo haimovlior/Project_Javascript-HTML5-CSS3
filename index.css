@@ -1,0 +1,91 @@
+@font-face {
+    font-family: myFont;
+    src: url(./KaushanScript-Regular.ttf);
+}
+
+.container {
+    background-image: url(./tile.jpg);
+    margin-top: 40px;
+
+}
+
+.heading {
+    text-align: center;
+    font-family: myFont;
+}
+
+.input-mission {
+    width: 500px;
+    margin: auto;
+
+}
+
+.task-container {
+    background-image: url(./formbg.jpg);
+    border-radius: 5px;
+}
+
+.insert-text {
+    background-color: transparent;
+    height: 150px;
+    width: 100%;
+    padding-left: 77px;
+    margin-top: 16px;
+    resize: none
+}
+
+.getdateandtime {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note-item {
+    background-image: url(./notebg.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 185px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+
+}
+
+.note-text {
+    width: 80%;
+    display: block;
+    padding-top: 30px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    height: 180px;
+}
+
+.date {
+    margin-left: 10px;
+    display: block;
+    position: absolute;
+    padding-top: 18px;
+    margin-top: 170px;
+
+}
+
+.note-time {
+    margin-bottom: 180px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
